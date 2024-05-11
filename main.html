@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVGI Canteen</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body style= "background-color: beige; background-image: url(images/4.jpg); background-size: cover; background-repeat: no-repeat; display:block;">
+    
+       
+        <div class="navbar" style="background-color: rgba(0, 0, 0, 0.782);">
+            <div id="logo">
+                <img src="images/logo2.png" alt="logo" style="background-color: transparent; margin-left: 60px; height: 170px; margin-top: 15px; filter: contrast(0) brightness(10) saturate(10%)  ; " >
+        </div>
+        <select id="inputState" class="form-select" style="width: 25rem; height: 50px;
+         border-radius: 10px; border-color: white; margin-top: 5px; margin-left:2rem ; font-size: 25px; font-family: times new roman; ">
+            <option selected>Choose Location & Restaurants  </option>
+            <option>Current Location</option>
+            <option>Indore</option>
+            <option >Apna Sweets</option>
+            <option>Guru Kripa Restaurant </option>
+            <option>Hotel ShreeMaya </option>
+            <option>Hotel Sayaji </option>
+            <option>Vijay Chaat House</option>
+            <option>Ujjain </option>
+            <option>Bhopal </option>
+            <option>Mumbai </option>
+            <option>Agra </option>
+            <option>Rajasthan </option>
+            <option>Delhi </option>
+            <option>New York </option>
+            <option>Dubai </option>
+          </select>  
+        
+          
+         <!-- <input type="search" name="" id="" placeholder="Search for Restaurant, cuisine or dish"  style="height: 60px; width: 25rem; border-radius: 10px; border-color: white; margin-top: 5px; margin-left:2rem ; font-size: 25px; font-family: times new roman; background-color:rgb(255, 255, 255); color:rgb(0, 0, 0); background: transparent so; "> -->
+            <!-- <input type="search" name="" id="" placeholder="Enter Restaurant"  style="height: 50px; width: 20rem; border-radius: 10px; margin-top: 5px; margin-left:0px ; font-size: 40px; font-family: times new roman; background-color:rgba(255, 255, 255, 0.794); color:rgb(0, 0, 0); "> -->
+            
+            <li style="margin-left: 20rem; color: white; "> Home</li>
+            <li ><a href="menu.html" target="_blank" style="color: white; text-decoration: none; ">Menu</a> </li>
+            <li> <a href="restaurant.html" target="_blank" style="color: white; text-decoration: none;">Restaurant</a></li>
+            <li style="text-decoration: none; color: white;"><a href="login form/index.html" style="text-decoration: none; color: white;">Login</a></li>
+            <li style="margin-right: 80px; color: white;"> <a href="login form/index.html" style="text-decoration: none; color: white;">Sign up</a></li>
+        
+          </div><br>
+          <section style="background-color: rgba(0, 0, 0, 0.639); border-radius: 2px; display: flex; height: 70px;">
+            <div class="rare">
+            
+            <p style="font-size: 40px; margin-left: 50px; margin-right: -500px; margin-top: 8px; color: red; font-weight: bold;">Pizza | Burger | Sandwitch | Sweet corn | Coffee | Cake | Snacks | French Fries  </p>
+        </div>
+        
+        
+        <style>
+        
+            .rare{
+                /* border-radius: 20px; */
+                position: relative;
+                animation-name: rare;
+                animation-duration: 10s;
+                animation-timing-function:ease-in;
+                animation-iteration-count: infinite;
+                animation-fill-mode:none;
+                animation-direction: initial;
+                
+            }
+        
+            @keyframes rare {
+                
+                from{
+                    transform: translateX(-1350px);
+                }
+                to{
+                    transform: translateX(130rem);
+                }
+                
+            }
+            
+        </style>
+        </section><br>
+        <section style="background-image: url(images/road2.avif); background-size: 60%; position:sticky;">
+        <div class="scooter"><img src="images/sc2.png" alt="scooter" style="height: 550px; margin-top: 5rem; "></div>
+        <img src="images/girl2.png" alt="home" style="margin-left: 1550px; width: 30rem;  ">
+        <style> 
+            .scooter{
+              width: 100px;
+              height: 100px;
+              /* background-color: red; */
+              position: relative;
+              animation-name: scooter;
+              animation-timing-function: ease-in;
+              animation-duration: 5s;
+              animation-iteration-count: infinite;
+              animation-direction:initial; 
+              animation-fill-mode: none; 
+
+              transform: translateX(-100px);
+            }
+
+
+            
+            @keyframes scooter {
+
+            from{
+                transform: translateX(-500px);
+            }
+            to{
+                transform: translateX(69rem);
+            }
+            }
+            </style>
+    </section>
+    
+
+    <section style="background-image: url(images/barrier.png); filter: contrast(20);  height:130px; margin-top: -105px; background-position: top;" > <br><br><br><br></section>
+    <br><br><br><br><br><br><br><br><br><br>
+
+   
+
+
+    <section style="background-color: rgba(35, 34, 34, 0.181);">
+        <h1 style="text-align: center; font-size: 70px; font-family: times new roman; color: white; filter: drop-shadow(10px 1px 2px orange) ;">ORDER YOUR FAVOURITE  FOOD AT YOUR DOORSTEP </h1>
+        <p style="font-size: 40px; color: white;text-align: center; font-family: cursive;">Food is the fuel that keeps us running throughout the day</p>
+        <p style="font-size: 40px; color: white; text-align: center; font-family: cursive;">Taste the joy of doorstep delights</p>
+        <p style="font-size: 40px; color: white; text-align: center; font-family: cursive; ">OUR BEST FOODS -> Onion Pizza | Veg Burger | French Fries | Masala Sandwitch | Paneer Momos  </p><br><br>
+        <div class="wrap">
+        <a href="menu.html" target="_blank" ><button class="order" style="margin-left: 57rem; height: 40px; width: 90px; border-radius: 400px; margin-bottom: 20px;">Order Now </button></a>
+        <br><br><br>
+    </div>
+    
+        <style> 
+            /* .order{
+              
+              /* background-color: red; */
+              /* position: relative;
+              animation-name: order;
+              animation-timing-function: ease-in;
+              animation-duration: 5s;
+              animation-iteration-count: infinite;
+              animation-direction:initial; 
+              animation-fill-mode: none;  */
+
+              /* transform: translateX(-100px); */
+            /* } */ */
+
+            .wrap {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+
+            .order {
+            min-width: 300px;
+            min-height: 60px;
+            font-size: 25px;
+            font-family: times new roman;
+            text-transform: uppercase;
+            letter-spacing: 1.3px;
+            font-weight: 700;
+            color: #313133;
+            background: #43dc06;
+            background: linear-gradient(90deg, rgb(100, 220, 14) 0%, rgb(185, 185, 25) 100%);
+            border: none;
+            border-radius: 1000px;
+            box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+            transition: all 0.3s ease-in-out 0s;
+            cursor: pointer;
+            outline: none;
+            position: relative;
+            padding: 10px;
+            }
+
+            .order::before {
+            content: '';
+            border-radius: 1000px;
+            min-width: calc(300px + 12px);
+            min-height: calc(60px + 12px);
+            border: 6px solid #47ff05;
+            box-shadow: 0 0 60px rgba(14, 255, 2, 0.64);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: all .3s ease-in-out 0s;
+            }
+
+            .order:hover, .order:focus {
+            color: #313133;
+            transform: translateY(-6px);
+            }
+
+            .order:hover::before, order:focus::before {
+            opacity: 1;
+            }
+
+            .order::after {
+            content: '';
+            width: 30px; height: 30px;
+            border-radius: 100%;
+            border: 6px solid #10f8ed;
+            position: absolute;
+            z-index: -1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: ring 1.2s infinite;
+            background-color: rgb(25, 153, 25);
+            
+            }
+
+            .order:hover::after, order:focus::after {
+            animation: none;
+            display: none;
+            background-color: green;
+            }
+
+            @keyframes ring {
+            0% {
+                width: 30px;
+                height: 30px;
+                opacity: 1;
+            }
+            100% {
+                width: 300px;
+                height: 300px;
+                opacity: 0;
+            }
+            }
+        
+        </style>
+        
+    </section>
+<p></p><br><br><br><br><br><br><br><br><br><br>
+
+    <section style="background-color: rgba(255, 255, 255, 0.092);  ">
+        <h2 style="font-size: 8rem; color: red; text-align: center; font-family: times new roman; font-weight: bolder;filter: drop-shadow(10px 1px 2px rgb(0, 0, 0));   "> OUR FEATURES </h2>
+        <div class="box">
+         <img class="free" src="images/free.png" alt="free delivery" style="width: 30rem; margin-left: 50px; "> 
+         <img class="fast" src="images/fast1.png" alt="fast delivery" style="width: 30rem; height: 35rem; margin-left: 150px;  ">
+         <img class="cash" src="images/cash.png" alt="cash on delivery" style="width: 31rem; margin-left: 180px;" >
+        </div>
+    
+    </section>
+    <section>
+<div class="kk" style="font-family: Times New Roman;  text-align: center; color: brown; ">
+    <h2 style="font-size: 6rem; font-weight: bold;"> FESTIVAL SPECIAL </h2>
+</div>
+<div class="row row-cols-1 row-cols-md-5">
+    <div class="col mb-4">
+    <div class="card"style="margin-left: 30px;">
+        <div class="image"><img src="images/kaju katli.jpg" alt="" style="object-fit: cover; width: 30rem;"></div>
+        <h3 style="margin-left: 10px; font-size: 40px; margin-top: 0px; margin-bottom: 20px; font-weight: bold;">KAJU KATLI</h3>
+        <h4 style="margin-left: 10px; margin-top: 0px; font-size: 30px; margin-bottom: 20px; font-weight: bold;">APNA SWEETS</h4>
+        <button class="button" style="margin-left: 9px; font-size: 20px; width: 122px; font-weight: bold;">Add to Cart </button>
+    </div>
+    </div>
+    <div class="col mb-4">
+    <div class="card"style="margin-left: 7rem;">
+        <div class="image"><img src="images/laddoo.jpg" alt="" style="object-fit: cover; width: 30rem;"></div>
+        <h3 style="margin-left: 10px; font-size: 40px; margin-top: 0px; margin-bottom: 20px; font-weight: bold;">LADDOO</h3>
+        <h4 style="margin-left: 10px; margin-top: 0px; font-size: 30px; margin-bottom: 20px; font-weight: bold;">APNA SWEETS</h4>
+        <button class="button" style="margin-left: 9px; font-size: 20px; width: 122px; font-weight: bold;">Add to Cart </button>
+    </div>
+    </div>
+
+    <div class="col mb-4">
+        <div class="card"style="margin-left: 12rem;">
+            <div class="image"><img src="images/modak.jpg" alt="" style="object-fit: cover; width: 30rem;"></div>
+            <h3 style="margin-left: 10px; font-size: 40px; margin-top: 0px; margin-bottom: 20px; font-weight: bold;"> MODAK </h3>
+            <h4 style="margin-left: 10px; margin-top: 0px; font-size: 30px; margin-bottom: 20px; font-weight: bold;">APNA SWEETS</h4>
+            <button class="button" style="margin-left: 9px; font-size: 20px; width: 122px; font-weight: bold;">Add to Cart </button>
+        </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card" style="margin-left: 18rem;">
+                <div class="image"><img src="images/gulab jamun.jpg" alt="" style="object-fit: cover; width: 30rem; height: 20.7rem;"></div>
+                <h3 style="margin-left: 10px; font-size: 40px; margin-top: 0px; margin-bottom: 10px; font-weight: bold;">GULAB JAMUN</h3>
+                <h4 style="margin-left: 10px; margin-top: 0px; font-size: 30px; margin-bottom: 20px; font-weight: bold;">APNA SWEETS</h4>
+                <button class="button" style="margin-left: 9px; font-size: 20px; width: 122px; font-weight: bold;">Add to Cart </button>
+            </div>
+            </div>
+
+
+        </section>
+
+
+
+
+    <section style="background-color: rgba(255, 255, 255, 0.092);  ">
+        <h2 style="font-size: 8rem; color: red; text-align: center; font-family: times new roman; font-weight: bolder;filter: drop-shadow(10px 1px 2px rgb(255, 255, 255));   "> OUR PARTNERS </h2>
+        <div class="box1">
+         <a href="https://www.swiggy.com/" target="_blank"><img class="free" src="images/swiggy1.png" alt="free delivery" style="width: 25rem; margin-left: 100px; margin-bottom: 80px; "> </a>
+         <a href="https://www.zomato.com/indore" target="_blank"><img class="fast" src="images/zomato.png" alt="fast delivery"  style="width: 30rem; height: 27rem; margin-left: 220px; margin-bottom: 150px;   "></a>
+         <a href="https://www.dunzo.com/order" target="_blank"><img class="cash" src="images/dunzo.png"  alt="cash on delivery" style="width: 28rem; margin-left: 280px; margin-bottom: 240px;" ></a>
+        </div>
+      
+   
+    </section>
+
+
+        </section>
+
+        <section style="background-color: rgba(255, 255, 255, 0.816); ">
+            <div class="kk" style="font-family: Times New Roman;  text-align: center; color: brown; ">
+                <h2 style="font-size: 6rem; font-weight: bold;"> INDIAN CHEF'S </h2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-5">
+                <div class="col mb-4">
+                <div class="card"style="margin-left: 30px;">
+                    <div class="image"><img src="images/nita.jpg" alt="" style="object-fit:fill; width: 30rem; height: 30rem;"></div>
+                    <h3 style="margin-left: 10px; font-size: 40px; margin-top: 0px; margin-bottom: 20px; font-weight: bold;">NITA MEHTA</h3>
+                    <p style="margin-left: 10px; margin-top: 0px; font-size: 20px; margin-bottom: 20px; font-weight: bold;">Nita Mehta is an Indian chef, author, restaurateur and media personality, known for her cookbooks, cooking classes and as a judge on cooking based television shows</p>
+                    <!-- <button class="button" style="margin-left: 9px; font-size: 20px; width: 122px; font-weight: bold;">Add to Cart </button> -->
+                </div>
+                </div>
+                <div class="col mb-4">
+                <div class="card"style="margin-left: 7rem;">
+                    <div class="image"><img src="images/sanjeev.jpg" alt="" style="object-fit: fill; width: 30rem; height: 24.5rem;"></div>
+                    <h3 style="margin-left: 10px; font-size: 40px; margin-top: 0px; margin-bottom: 20px; font-weight: bold;">SANJEEV KAPOOR</h3>
+                    <p style="margin-left: 10px; margin-top: 0px; font-size: 20px; margin-bottom: 20px; font-weight: bold;">Sanjeev Kapoor is an Indian chef. He began his career in the hospitality industry in 1984 after completing the Diploma in Hotel Management from the Institute of Hotel Management Catering & Nutrition, Pusa, New Delhi. Kapoor is married to Alyona Kapoor, who is also a part of his business, Turmeric Vision Pvt. Ltd. </p>
+                    <!-- <button class="button" style="margin-left: 9px; font-size: 20px; width: 122px; font-weight: bold;">Add to Cart </button> -->
+                </div>
+                </div>
+            
+                <div class="col mb-4">
+                    <div class="card"style="margin-left: 12rem;">
+                        <div class="image"><img src="images/kunal.webp" alt="" style="object-fit: fill; width: 30rem; height: 30rem;"></div>
+                        <h3 style="margin-left: 10px; font-size: 40px; margin-top: 0px; margin-bottom: 20px; font-weight: bold;"> KUNAL KAPOOR </h3>
+                        <p style="margin-left: 10px; margin-top: 0px; font-size: 20px; margin-bottom: 20px; font-weight: bold;">Kunal Kapur is a well-known celebrity chef who has also previously been a judge on MasterChef India. He has won the Epicurean Guild Award for Best Food ...</p>
+                        <!-- <button class="button" style="margin-left: 9px; font-size: 20px; width: 122px; font-weight: bold;">Add to Cart </button> -->
+                    </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card" style="margin-left: 18rem;">
+                            <div class="image"><img src="images/shipra.jpeg" alt="" style="object-fit: cover; width: 30rem; height: 27rem;"></div>
+                            <h3 style="margin-left: 10px; font-size: 40px; margin-top: 0px; margin-bottom: 10px; font-weight: bold;">SHIPRA KHANNA</h3>
+                            <p style="margin-left: 10px; margin-top: 0px; font-size: 20px; margin-bottom: 20px; font-weight: bold;">Shipra Khanna is an Indian celebrity chef, restaurateur, author and television personality. She is best known for, at the age of 29, winning the second season of the Indian television show MasterChef India which aired on Star Plus.</p>
+                            <!-- <button class="button" style="margin-left: 9px; font-size: 20px; width: 122px; font-weight: bold;">Add to Cart </button> -->
+                        </div>
+                        </div>
+            
+            
+                    </section>
+
+
+
+
+                    <section style="background-color: rgba(255, 255, 255, 0.816); ">
+                        <div class="kk" style="font-family: Times New Roman;  text-align: center; color: brown; ">
+                            <h2 style="font-size: 6rem; font-weight: bold;"> CHINESE CHEF'S </h2>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-5">
+                            <div class="col mb-4">
+                            <div class="card"style="margin-left: 30px;">
+                                <div class="image"><img src="images/danny.jpg" alt="" style="object-fit:fill; width: 30rem; height: 30rem;"></div>
+                                <h3 style="margin-left: 10px; font-size: 40px; margin-top: 0px; margin-bottom: 20px; font-weight: bold;">DANNY BOWEIN</h3>
+                                <p style="margin-left: 10px; margin-top: 0px; font-size: 20px; margin-bottom: 20px; font-weight: bold;">The founder and owner of Mission Chinese Food in New York City and Brooklyn, and co-founder of Mission Chinese Food in San Francisco, California.</p>
+                                <!-- <button class="button" style="margin-left: 9px; font-size: 20px; width: 122px; font-weight: bold;">Add to Cart </button> -->
+                            </div>
+                            </div>
+                            <div class="col mb-4">
+                            <div class="card"style="margin-left: 7rem;">
+                                <div class="image"><img src="images/shirley.jpg" alt="" style="object-fit: fill; width: 30rem; height: 32rem;"></div>
+                                <h3 style="margin-left: 10px; font-size: 40px; margin-top: 0px; margin-bottom: 20px; font-weight: bold;">SHIRLEY CHUNG</h3>
+                                <p style="margin-left: 10px; margin-top: 0px; font-size: 20px; margin-bottom: 20px; font-weight: bold;">Combines her experiences of cooking in renowned French and Italian restaurants with her Chinese heritage to create a unique menu.</p>
+                                <!-- <button class="button" style="margin-left: 9px; font-size: 20px; width: 122px; font-weight: bold;">Add to Cart </button> -->
+                            </div>
+                            </div>
+                        
+                            <div class="col mb-4">
+                                <div class="card"style="margin-left: 12rem;">
+                                    <div class="image"><img src="images/peter.jpg" alt="" style="object-fit: fill; width: 30rem; height: 30rem;"></div>
+                                    <h3 style="margin-left: 10px; font-size: 40px; margin-top: 0px; margin-bottom: 20px; font-weight: bold;"> PETER CHANG </h3>
+                                    <p style="margin-left: 10px; margin-top: 0px; font-size: 20px; margin-bottom: 20px; font-weight: bold;">An award-winning chef who specializes in Szechuan cuisine. He has cooked in restaurants throughout the American southwest and the DMV area.</p>
+                                    <!-- <button class="button" style="margin-left: 9px; font-size: 20px; width: 122px; font-weight: bold;">Add to Cart </button> -->
+                                </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card" style="margin-left: 18rem;">
+                                        <div class="image"><img src="images/martin.jpg" alt="" style="object-fit: cover; width: 30rem; height: 28.6rem;"></div>
+                                        <h3 style="margin-left: 10px; font-size: 40px; margin-top: 0px; margin-bottom: 10px; font-weight: bold;">MARTIN YAN</h3>
+                                        <p style="margin-left: 10px; margin-top: 0px; font-size: 20px; margin-bottom: 20px; font-weight: bold;">A Chinese-Hong Kong-American chef and food writer who has excellent talent in cooking and performance. He has a TV show called Yan can cook where he calls himself “The quickest knife on Earth”.</p>
+                                        <!-- <button class="button" style="margin-left: 9px; font-size: 20px; width: 122px; font-weight: bold;">Add to Cart </button> -->
+                                    </div>
+                                    </div>
+                        
+                        
+                                </section><br><br><br><br>
+
+        <section style="background-color: aliceblue ;">
+            <footer>
+            <div class="container">
+                <!-- <img src="logo2.png" alt="logo" style=" margin-right: 900px; "> -->
+                <div class="footer-content">
+                <ul style="list-style: none; margin-left: -500px;">
+                    <h3> GROUP G-8 </h3>
+                    <li>Vishal Prajapat </li>
+                    <li>Chetna Dharwar</li>
+                    <li>Shelly Solanki</li>
+                    <li>Sourabh Mishra</li>
+                    <!-- <li>Contact Us</li> -->
+                </ul>
+                </div>
+                <div class="footer-content" style="margin-left: -200px;">
+                <ul style="list-style: none;">
+                    <h3>PROGRAMMER</h3>
+                    <li> <a href="https://www.linkedin.com/in/vishal-prajapat-41507226b/" target="_blank
+                        " style="color: white; text-decoration: none; "> VISHAL PRAJAPAT  </a></li>
+                    <li>MO.- 9171924263 </li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <ul style="list-style: none; margin-left: 20px; margin-right: 80px;">
+                <h3> CONTACT US</h3>
+                    
+                    <li>Help & Support </li>
+                    <li>Partner with us </li>
+                    <li>Ride with us</li>
+                </ul>
+            </div>
+            <div class="footer-content">
+            <ul class="list" style="list-style: none; margin-left: -40px;">
+            <h3>QUICK LINKS</h3>
+                
+                <li > <a href="main.html" style="text-decoration: none ; color: white;">HOME</a> </li>
+                <li> <a href="menu.html" style="text-decoration: none; color: white;" target="_blank">Menu </a></li>
+                <li><a href="restaurant.html"  style="text-decoration: none; color: white;" target="_blank">Restaurant</a></li>
+                <li>About </li>
+            </ul>
+        </div>
+            <div class="footer-content">
+                <ul class="social-icons" style="list-style: none; margin-left: 70px;">
+                <li><a href="" ><i class="fab fa-google" style="font-size: 60px; "></i></a></li><br>
+                <li><a href=""><i class="fab fa-instagram" style="font-size: 60px;"></i></a></li><br>
+                <li><a href=""><i class="fab fa-facebook" style="font-size: 60px;"></i></a></li><br>
+                <li><a href=""><i class="fab fa-twitter" style="font-size: 60px;"></i></a></li><br>
+            </ul>
+            </div>
+            <img src="images/logo2.png" alt="logo" style=" margin-right: -400px; margin-top: -50px; filter: brightness(-40); ">
+            </div>
+            <div class="bottom-bar">
+                <p> &copy; 2024  FOODIES-EXPRESS |  All Right Reserved </p><br> 
+            </div>
+            </footer>
+        </section>
+</body>
+</html>

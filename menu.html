@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery Card</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+      }
+
+      .food-card {
+        width: 25rem;
+        height: 32rem;
+        margin: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .food-card:hover {
+        transform: scale(1.05);
+        color: rgb(196, 51, 38);
+        background-color: rgb(243, 235, 235);
+      }
+
+      .food-image {
+        width: 25rem;
+        height: 18rem;
+        object-fit: cover;
+      }
+
+      .food-details {
+        padding: 5px 10px;
+        padding-top: 0px;
+      }
+
+      .food-title {
+        font-size: 2.7rem;
+        font-weight: bold;
+        font-family: cursive;
+        /* margin-bottom: 0px; */
+        padding-top: 0px;
+      }
+
+      .food-description {
+        font-size: 1.5rem;
+        color: #af2d2d;
+        margin-bottom: 5px;
+        margin-top: 7px;
+        font-weight: bold;
+        font-family: cursive;
+      }
+
+      .food-price {
+        font-size: 2.7rem;
+        color: #e44d26;
+        font-weight: bold;
+        padding-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(243, 235, 235); background-image: url(images/bg3.avif); background-size: cover;" >
+    <h2 style="text-align: center; font-size: 10rem; margin-top: 20px; font-family: cursive; font-weight: bold; color: #ff0000a6; background-image: url(images/food2.jpg); background-size:cover; border-radius: 200px; margin-right: 29rem; margin-left: 29rem; ">WELCOME FOODIES </h2>
+    <h3 style="text-align: center; font-size: 90px; font-family: imapct; font-weight: bold; color: #91270d;">SNACKS </h3>
+    <div class="row row-cols-1 row-cols-md-5">
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 10px">
+          <img class="food-image" src="images/burger.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Burger</div>
+            <div class="food-description">Snacktastic!</div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px">
+          <img class="food-image" src="images/pizza.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Pizza</div>
+            <div class="food-description">Snacktastic!</div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px">
+          <img class="food-image" src="images/sandwitch.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Sandwitch</div>
+            <div class="food-description">Snacktastic!</div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 1px">
+          <img class="food-image" src="images/momos.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Momos</div>
+            <div class="food-description">Snacktastic!</div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px; margin-right: 10px">
+          <img class="food-image" src="images/pasta.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Pasta</div>
+            <div class="food-description">Snacktastic!</div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <h3 style="text-align: center; font-size: 90px; font-family: imapct; font-weight: bold; color: #91270d; margin-left: 50rem; margin-right: 50rem;">COFFEE </h3>
+    
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 10px">
+          <img class="food-image" src="images/latte coffee.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Latte Coffee</div>
+            <div class="food-description">Coffee Culture </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px">
+          <img class="food-image" src="images/espresso coffee.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Espresso Coffee</div>
+            <div class="food-description">Coffee Culture </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px">
+          <img class="food-image" src="images/americano coffee.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Americano Coffee</div>
+            <div class="food-description">Coffee Culture </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 1px ;" >
+          <img class="food-image" src="images/cold coffee.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Cold Coffee</div>
+            <div class="food-description">Coffee Culture </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px; margin-right: 10px">
+          <img class="food-image" src="images/flat white coffee.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title" style="font-size: 40px;">Flat White Coffee</div>
+            <div class="food-description">Coffee Culture </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 style="text-align:center; font-size: 90px;  font-family:impct; font-weight:bold; color: #91270d; margin-left: 50rem; margin-right: 40rem;   ">DREAMY DELIGHTS </h3>
+    
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 10px">
+          <img class="food-image" src="images/fruit icecream.png" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Fruit Icecream </div>
+            <div class="food-description">Icee Desert </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px">
+          <img class="food-image" src="images/icecream  cone.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Icecream Cone</div>
+            <div class="food-description">Icee Desert </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px">
+          <img class="food-image" src="images/faaluda.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Faaluda</div>
+            <div class="food-description">Icee Desert </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 1px ;" >
+          <img class="food-image" src="images/lassi.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Punjabi Lassi </div>
+            <div class="food-description">Icee Desert </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px; margin-right: 10px">
+          <img class="food-image" src="images/badam shake.avif" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title" style="font-size: 40px;">Baadam Shake</div>
+            <div class="food-description">Icee Desert </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <h3 style="text-align:center; font-size: 90px;  font-family:impct; font-weight:bold; color: #91270d; margin-left: 50rem; margin-right: 40rem;   ">CAKE & PASTY </h3>
+    
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 10px">
+          <img class="food-image" src="images/black fores.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Black forest  </div>
+            <div class="food-description">Cake Guru  </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px">
+          <img class="food-image" src="images/funfetti.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Funfetti Cake</div>
+            <div class="food-description">Cake Guru </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px">
+          <img class="food-image" src="images/coconut.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Coconut Cake</div>
+            <div class="food-description">Cake Guru </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 1px ;" >
+          <img class="food-image" src="images/pineapple.png" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Pineapple Cake </div>
+            <div class="food-description">Cake Guru </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px; margin-right: 10px">
+          <img class="food-image" src="images/CLASSIC-CHOCOLATE-CAKE.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title" style="font-size: 40px;">Choclate Cake </div>
+            <div class="food-description">Cake Guru </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 style="text-align:center; font-size: 90px;  font-family:impct; font-weight:bold; color: #91270d; margin-left: 50rem; margin-right: 40rem;   ">Paratha </h3>
+    
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 10px">
+          <img class="food-image" src="images/lachcha paratha.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Lachcha Paratha  </div>
+            <div class="food-description"> SVGI Wala Paratha  </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px">
+          <img class="food-image" src="images/aloo paratha.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Aaloo Paratha</div>
+            <div class="food-description">SVGI Wala Paratha  </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px">
+          <img class="food-image" src="images/sev paratha.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Sev Paratha </div>
+            <div class="food-description">SVGI Wala Paratha </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 1px ;" >
+          <img class="food-image" src="images/Mughlai-paratha-with-onion.webp" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Mughlai Paratha </div>
+            <div class="food-description">SVGI Wala Paratha </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px; margin-right: 10px">
+          <img class="food-image" src="images/methi paratha.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title" style="font-size: 40px;">Methi Paratha </div>
+            <div class="food-description"> SVGI Wala Paratha </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 style="text-align:center; font-size: 90px;  font-family:impct; font-weight:bold; color: #91270d; margin-left: 50rem; margin-right: 40rem;   ">Thaalii </h3>
+    
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 10px">
+          <img class="food-image" src="images/rajasthan.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Rajasthan Thali  </div>
+            <div class="food-description"> Thaali King  </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px">
+          <img class="food-image" src="images/maharashtrian thali.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title" style="font-size: 38.7px;">Maharashtrian Thali</div>
+            <div class="food-description">Thaali King </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px">
+          <img class="food-image" src="images/westbengal thali.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Westbengal Thali </div>
+            <div class="food-description">Thaali King </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 1px ;" >
+          <img class="food-image" src="images/tamilnadu style.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title">Tamilnadu Style </div>
+            <div class="food-description">Thaali King </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4">
+        <div class="food-card" style="margin-left: 0px; margin-right: 10px">
+          <img class="food-image" src="images/punjabi.jpg" alt="Food Image" />
+          <div class="food-details">
+            <div class="food-title" style="font-size: 40px;">Punjabi Thali </div>
+            <div class="food-description"> Thaali King </div>
+            <div class="food-price">$9.99</div>
+            <div class="button1">
+              <button
+                style="
+                  color: #e44d26;
+                  border-radius: 10px;
+                  border-color: rgb(243, 235, 235);
+                  font-size: 20px;
+                  background-color: #ffffff;
+                "
+              >
+                Add to Cart
+                <i class="fa fa-shopping-cart" style="font-size: 25px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
